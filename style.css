@@ -1,0 +1,62 @@
+/* CSS: cascading style sheets
+
+properties and values
+*/
+
+.one {
+    height: 50vh;
+    background-color: aqua;
+}
+
+.two {
+    height: 50vh;
+    background-color: blueviolet;
+}
+
+
+
+
+.three {
+    height: 50vh;
+    background-color: brown;
+}
+
+.four {
+    height: 50vh;
+    background-color: black;
+}
+
+.five {
+    height: 50vh;
+    background-color: crimson;
+}
+
+
+
+
+.six {
+    height: 100vh;
+    background-color: darkmagenta;
+}
+
+.seven {
+    height: 50vh;
+}
+
+
+
+
+.eight {
+    height: 50vh;
+    background-color: darkorange;
+}
+
+.nine {
+    height: 50vh;
+    background-color: aqua;
+}
+
+.ten {
+    height: 50vh;
+    background-color: cornflowerblue;
+}
