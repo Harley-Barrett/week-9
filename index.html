@@ -1,44 +1,116 @@
-<!-- Hyper text markup language -->
+<!-- Hyper Text Markup Language -->
 
 <!DOCTYPE html>
 
 <html>
     <head>
-        <title>Grid system project</title>
+        <title>Travel agency project</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <!-- Start of Navbar -->
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 one"></div>
-                <div class="col-md-6 two"></div>
+        <nav class="navbar navbar-expand-lg nav-bgcolor">
+            <a class="navbar-brand" href="#">Traval agency of America</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-center navbar-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customer service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Traval locations</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- End of Navbar -->
+
+
+
+        <!-- Start of Jumbotron -->
+
+        <div class="jumbo-container">
+            <div class="jumbotron jumbo-bg">
+                <h1 class="display-4">The number one traval agenty of America!</h1>
+                <p class="lead">We here at the traval agency of America, offer the best, first class airlines to your favorite tourist attractions</p>
+                <hr class="my-4">
+                <p>From Beijing to the Bahamas we can take you all around the world!</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Click Here To Learn more</a>
+            </div>
+        </div>
+
+        <!-- End of Jumbotron -->
+
+
+
+        <!-- Start of Cards -->
+
+        <div class="card-deck card-bg">
+            <div class="card">
+                <img src="images/image_2.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Streets of Beijing</h5>
+                    <p class="card-text">Come visit the exotic streets of Beijing and experience the beautiful chinease culture.</p>
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-3 three"></div>
-                <div class="col-md-5 four"></div>
-                <div class="col-md-4 five"></div>
+            <div class="card">
+                <img src="images/image_4.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The exotic cities of India</h5>
+                    <p class="card-text">Here you can take a dive into the Indian culture and experience what day to day life is like for the people there.</p>
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 six"></div>
-                <div class="col-md-6 seven">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 eight"></div>
-                        </div>
+            <div class="card">
+                <img src="images/image_5.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The beautiful waters of Hawaii</h5>
+                    <p class="card-text">Take a dive into the beautiful clear calm waters of Hawaii, where you can surf and go scuba diving.</p>
+                </div>
+            </div>
 
-                        <div class="row">
-                            <div class="col-md-6 nine"></div>
-                            <div class="col-md-6 ten"></div>
-                        </div>
-                    </div>
+            <div class="card">
+                <img src="images/image_3.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The vallys of the Hymalayan Mountians</h5>
+                    <p class="card-text">Take through the Hymalayan mountians, they are beautiful and definently a must-see.</p>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
